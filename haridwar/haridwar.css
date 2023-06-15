@@ -1,0 +1,85 @@
+html{
+  scroll-behavior:smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image:url('hari1.jpg');    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #packages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .package {
+    max-width: 500px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 3%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .package img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    margin-top: 10px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background-color: red;
+    color: blue;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

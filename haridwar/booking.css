@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('hari5.jpg');
+    color: rgb(0, 0, 0);
+    
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #booking-form {
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+    align-items: center;
+    height: 100vh;
+    background-image:url('hari2.jpg');    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    margin: 0;
+    
+    
+  }
+  
+  .form-container {
+    max-width: 400px;
+    padding-left: 150px;
+    padding-right:150px ;
+    padding-top:60px;
+    padding-bottom:60px;
+    margin:2%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter:blur(2.5px);
+    background: transparent;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
