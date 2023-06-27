@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kedarnath Travel Package - Booking</title>
+  <link rel="stylesheet" type="text/css" href="kdbook.css">
+</head>
+<body>
+  <header>
+    <h1>Kedarnath Travel Package - Booking</h1>
+  </header>
+
+  <section id="booking-form">
+    <div class="form-container">
+      <h2>Book Your Package</h2>
+      <form id="book-package-form" class="form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="date">Travel Date:</label>
+          <input type="date" id="date" required>
+        </div>
+        <div class="form-group">
+          <label for="persons">Number of Persons:</label>
+          <input type="number" id="persons" min="1" required>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Haridwar Travel Package. All rights reserved.</p>
+  </footer>
+
+  <script src="kdbook.js"></script>
+</body>
+</html>
